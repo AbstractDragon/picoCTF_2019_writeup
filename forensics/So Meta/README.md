@@ -13,6 +13,11 @@ Forensics
 >Ever hear of metadata?
 
 ## Solution 
+Open terminal and install imagemagick
+```
+$ sudo apt install imagemagick
+```
+
 Open terminal in the directory of the image file and use:
 ```
 $ identify -verbose pico_img.png | grep "picoCTF"
